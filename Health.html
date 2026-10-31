@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Care Hospital</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 15px;
+        }
+        h2 { color: teal; }
+        input, select, button {
+            padding: 8px;
+            margin: 5px;
+        }
+        button {
+            background-color: teal;
+            color: white;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>City Care Hospital</h1>
+    <p>Your Health, Our Priority</p>
+</header>
+<nav>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section id="about">
+    <h2>About Our Hospital</h2>
+    <p>We provide quality healthcare and patient care services.</p>
+    <p>Facilities: Pharmacy, Laboratory, Ambulance and ICU.</p>
+    <p>Visiting Hours: 10 AM - 6 PM</p>
+</section>
+<section id="departments">
+    <h2>Our Departments</h2>
+    <ul>
+        <li>Cardiology - Dr. Ravi</li>
+        <li>Neurology - Dr. Priya</li>
+        <li>Orthopedics - Dr. Kumar</li>
+        <li>Pediatrics - Dr. Anjali</li>
+    </ul>
+</section>
+<section id="contact">
+    <h2>Emergency Contact</h2>
+    <p>Emergency Number: 108</p>
+    <p>Phone: 9876543210</p>
+    <h2>Book an Appointment</h2>
+    <form>
+        <label for="name">Patient Name:</label>
+        <input id="name" type="text" required><br>
+        <label for="date">Appointment Date:</label>
+        <input id="date" type="date" required><br>
+        <label for="dept">Department:</label>
+        <select id="dept">
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>Pediatrics</option>
+        </select><br>
+        <button type="submit">Book Appointment</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2026 City Care Hospital</p>
+</footer>
+</body>
+</html>
